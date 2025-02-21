@@ -41,7 +41,7 @@ const showAllJobs = () => {
 
   <!-- View All Jobs Button -->
   <section v-if="showButton && jobLimit !== jobs.length">
-    <button @click="showAllJobs" class="block w-full bg-black text-white text-center py-6 hover:bg-gray-700">
+    <button @click="showAllJobs" class="block w-40 mt-4 bg-gray-300 text-black  text-center mx-auto hover:bg-gray-700 p-2 rounded mb-2">
       View All Jobs
     </button>
   </section>
